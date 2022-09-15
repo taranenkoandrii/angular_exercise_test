@@ -1,0 +1,17 @@
+.video {
+  height: 100%;
+}
+
+.video-frame {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redirect-button {
+  margin: 20px 0 0 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}

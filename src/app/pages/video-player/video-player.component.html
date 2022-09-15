@@ -1,0 +1,10 @@
+<div *ngIf="video" class="video">
+  <button class="mat-button redirect-button" (click)="redirect()">Back</button>
+  <div *ngIf="video" class="video-frame">
+    <iframe width="60%" height="75%" [src]="video.videoUrl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+<div *ngIf="!video" class="spinner">
+  <app-loader></app-loader>
+</div>
+
